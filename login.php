@@ -55,7 +55,7 @@ if(isset($_POST['username'])) {
                                         </form>
                                     </div>
                                     <div class="card-footer text-center py-3">
-                                        <div class="small"><a href="register.php">Belum punya akun? Register!</a></div>
+                                        <div class="small">Belum punya akun?<a href="register.php"> Register!</a></div>
                                     </div>
                                 </div>
                             </div>
@@ -67,7 +67,7 @@ if(isset($_POST['username'])) {
                 <footer class="py-4 bg-light mt-auto">
                     <div class="container-fluid px-4">
                         <div class="d-flex align-items-center justify-content-between small">
-                            <div class="text-muted">Copyright &copy; Your Website 2023</div>
+                            <div class="text-muted">Copyright &copy; Annisa & Dinda Fitri 2025</div>
                             <div>
                                 <a href="#">Privacy Policy</a>
                                 &middot;

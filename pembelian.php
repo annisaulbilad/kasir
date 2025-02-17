@@ -21,8 +21,9 @@
                                         <td><?php echo $data['nama_pelanggan']; ?></td>
                                         <td><?php echo $data['total_harga']; ?></td>
                                         <td>
-                                            <a href="?page=penjualan_detail&&id=<?php echo $data['id_penjualan']; ?>" class="btn btn-secondary">Detail</a>
-                                            <a href="?page=penjualan_hapus&&id=<?php echo $data['id_penjualan']; ?>" class="btn btn-danger">Hapus</a>
+                                            <a href="?page=penjualan_detail&&id=<?php echo $data['id_penjualan']; ?>" class="btn btn-secondary"><i class="fa-solid fa-clipboard-list"></i>
+</a>
+                                            <a href="?page=penjualan_hapus&&id=<?php echo $data['id_penjualan']; ?>" class="btn btn-danger"><i class="fa-solid fa-user-slash"></i></a>
                                         </td>
                                     </tr>
                                     <?php

@@ -21,8 +21,8 @@
                                         <td><?php echo $data['harga']; ?></td>
                                         <td><?php echo $data['stock']; ?></td>
                                         <td>
-                                            <a href="?page=produk_ubah&&id=<?php echo $data['id_produk']; ?>" class="btn btn-secondary">Ubah</a>
-                                            <a href="?page=produk_hapus&&id=<?php echo $data['id_produk']; ?>" class="btn btn-danger">Hapus</a>
+                                            <a href="?page=produk_ubah&&id=<?php echo $data['id_produk']; ?>" class="btn btn-secondary"><i class="fa-solid fa-pen"></i></a>
+                                            <a href="?page=produk_hapus&&id=<?php echo $data['id_produk']; ?>" class="btn btn-danger"><i class="fa-solid fa-trash"></i></a>
                                         </td>
                                     </tr>
                                     <?php

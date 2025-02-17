@@ -33,12 +33,13 @@
             <!-- Navbar-->
             <ul class="navbar-nav ms-auto ms-md-0 me-3 me-lg-4">
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-user-secret"></i></a>
                     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#!">Settings</a></li>
-                        <li><a class="dropdown-item" href="#!">Activity Log</a></li>
+                        <li><a class="dropdown-item" href="#!"><i class="fa-solid fa-screwdriver-wrench"></i> Settings</a></li>
+                        <li><a class="dropdown-item" href="#!"><i class="fa-solid fa-clock-rotate-left"></i> Activity Log</a></li>
                         <li><hr class="dropdown-divider" /></li>
-                        <li><a class="dropdown-item" href="#!">Logout</a></li>
+                        <li><a class="dropdown-item" href="logout.php"><i class="fa-solid fa-arrow-right-from-bracket"></i>
+ Logout</a></li>
                     </ul>
                 </li>
             </ul>
@@ -50,22 +51,19 @@
                         <div class="nav">
                             <div class="sb-sidenav-menu-heading">Navigasi</div>
                             <a class="nav-link" href="index.php">
-                                <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                                <div class="sb-nav-link-icon"><i class="fa-solid fa-house"></i></div>
                                 Dashboard
                             <a class="nav-link" href="?page=pelanggan">
                                 <div class="sb-nav-link-icon"><i class="fas fa-users"></i></div>
                                 Pelanggan
                             </a>
                             <a class="nav-link" href="?page=produk">
-                                <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
+                                <div class="sb-nav-link-icon"><i class="fa-solid fa-tag"></i>
+</div>
                                 Produk/Barang
                             </a><a class="nav-link" href="?page=pembelian">
-                                <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
+                                <div class="sb-nav-link-icon"><i class="fa-solid fa-basket-shopping"></i></div>
                                 Pembelian
-                            </a>
-                            <a class="nav-link" href="login.php">
-                                <div class="sb-nav-link-icon"><i class="fa fa-power-off"></i></div>
-                                Logout
                             </a>
                         </div>
                     </div>
@@ -87,7 +85,7 @@
                 <footer class="py-4 bg-light mt-auto">
                     <div class="container-fluid px-4">
                         <div class="d-flex align-items-center justify-content-between small">
-                            <div class="text-muted">Copyright &copy; Your Website 2023</div>
+                            <div class="text-muted">Copyright &copy; Annisa & Dinda Fitri 2025</div>
                             <div>
                                 <a href="#">Privacy Policy</a>
                                 &middot;
